@@ -1,0 +1,51 @@
+1. Write an algorithm that calculates the sum of all natural numbers from 1 to a given number n.
+
+Start
+Input: Read the value of n
+Initialize: Set sum = 0.
+Loop: Iterate from 1 to n and add each number to sum. ( for i = 1, i <= n, i++)
+return the sum
+Output: Display the value of sum.
+End
+
+2. Write an algorithm that checks if a given number n is a prime number or not.
+
+Start
+Input: Read the number n.
+Check Special Cases: If 𝑛≤1 return Not Prime.
+If 𝑛=2 return Prime (2 is the only even prime number).
+Loop from if (n % 2== 0)
+n is divisible by any number in this range, return Not Prime.
+If no divisors found, return Prime.
+End
+
+3. Write an algorithm that takes three numbers as input and finds the largest of them.
+
+Start
+Input: Read three numbers a, b, c.
+Compare the numbers: 
+if a>=b, a>=c then a is largest, 
+else if b>=c, b>=a then b is largest 
+else c is largest
+Output: Print the largest number.
+End
+
+4. Write an algorithm that calculates the factorial of a number n
+
+Start
+Input: Read a number n.
+Check 
+if n is 0 or 1: If yes, return 1.
+Initialize factorial = 1.
+Loop from 1 to n: Multiply factorial by each number in the loop.
+Output: Print the computed factorial.
+End
+
+5.Write an algorithm that checks if a given number n is even or odd
+
+Start
+Input: Read the number n.
+Check Condition:
+If  n mod 2=0, print "Even".
+Else, print "Odd".
+End
